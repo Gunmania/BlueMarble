@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlueMarble.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,12 +12,18 @@ namespace BlueMarble
         //객체를 불러올때에는 ClassManagement.GetInstance().~~~
         private static ClassManagement s_instance;
         private UserVO m_userVO; //여기다가 넣고 불러오면됨
-        private CityVO m_cityVO; 
+        private CityVO m_cityVO;
+        private PresetGameController m_preset;
 
         public static ClassManagement GetInstance()
         {
             if (s_instance == null) s_instance = new ClassManagement();
             return s_instance;
+        }
+
+        public PresetGameController getPresetGame() {
+            if (m_preset == null) m_preset = new PresetGameController();
+            return m_preset;
         }
     }
 }
