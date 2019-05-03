@@ -1,4 +1,5 @@
 ﻿using BlueMarble.Controller;
+using BlueMarble.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,17 +14,13 @@ namespace BlueMarble
         private static ClassManagement s_instance;
         private List<UserVO> m_userList;
         private List<CityVO> m_cityVO;
-        private PresetGameController m_preset;
+        private MenuView m_menuView;
+        private GameView m_gameView;
 
         public static ClassManagement GetInstance()
         {
             if (s_instance == null) s_instance = new ClassManagement();
             return s_instance;
-        }
-
-        public PresetGameController getPresetGame() {
-            if (m_preset == null) m_preset = new PresetGameController();
-            return m_preset;
         }
 
         public List<UserVO> GetUserVO()
@@ -32,11 +29,34 @@ namespace BlueMarble
             return m_userList;
         }
 
+        public MenuView GetMenuView()
+        {
+            if (m_menuView == null) m_menuView = new MenuView();
+            return m_menuView;
+        }
+
+        public GameView GetGameView()
+        {
+            if (m_gameView == null) m_gameView = new GameView();
+            return m_gameView;
+        }
+
         //게임 재시작을 했을경우 UserList 초기화
         public List<UserVO> MakeNewUserVO()
         {
             m_userList = new List<UserVO>();
             return m_userList;
+        }
+
+        public void SetMenuView(MenuView menu)
+        {
+            this.m_menuView = menu;
+        }
+
+        //강제로 게임이 종료되면 게임객체 삭제.
+        public void DeleteGameView()
+        {
+            m_gameView = null;
         }
     }
 }

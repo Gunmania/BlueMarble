@@ -45,12 +45,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\PresetGameController.cs" />
+    <Compile Include="Controller\StateCheckController.cs" />
     <Compile Include="Model\CityVO.cs" />
     <Compile Include="ClassManagement.cs" />
     <Compile Include="Model\MapVO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\UserVO.cs" />
+    <Compile Include="View\GameView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\GameView.Designer.cs">
+      <DependentUpon>GameView.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\MenuView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +73,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\GameView.resx">
+      <DependentUpon>GameView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\MenuView.resx">
       <DependentUpon>MenuView.cs</DependentUpon>
     </EmbeddedResource>

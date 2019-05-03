@@ -17,7 +17,8 @@ namespace BlueMarble.View
         public MenuView()
         {
             InitializeComponent();
-            gameController = ClassManagement.GetInstance().getPresetGame();
+            gameController = new PresetGameController();
+            ClassManagement.GetInstance().SetMenuView(this);
         }
 
         private void vsUserCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -40,23 +41,31 @@ namespace BlueMarble.View
 
         private void startBtn_Click(object sender, EventArgs e)
         {
-            List<UserVO> list ;
             if (checkTextBox())
+            {
                 gameController.MakeGame(vsUserCheckBox.Checked, int.Parse(moneyBox.Text), mapBox.Text, playerName1.Text, playerName2.Text);
-            list = ClassManagement.GetInstance().GetUserVO();
-            MessageBox.Show("굿", list[0].Name+"  "+list[1].Name);
-
+                this.Opacity = 0;
+            }
         }
 
         //각 위치에 정확한 값이 들어갔나 확인한다.
         public bool checkTextBox()
         {
             if (moneyBox.TextLength < 1)
+            {
+                MessageBox.Show("정확한 액수를 입력해주세요.", "경고");
                 return false;
+            }
             else if (playerName1.TextLength < 1)
+            {
+                MessageBox.Show("1P의 이름을 입력해주세요.", "경고");
                 return false;
-            else if (!vsUserCheckBox.Checked && playerName2.TextLength < 1)
+            }
+            else if (vsUserCheckBox.Checked && playerName2.TextLength < 1)
+            {
+                MessageBox.Show("2P의 이름을 입력해주세요.", "경고");
                 return false;
+            }
             else
                 return true;
         }
