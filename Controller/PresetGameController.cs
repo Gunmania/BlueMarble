@@ -31,18 +31,18 @@ namespace BlueMarble.Controller
             gameView = ClassManagement.GetInstance().GetGameView();
             if (isVsUser)
             {
-                player1 = new UserVO(money, 0, name_1p);
+                player1 = new UserVO(money, 0, name_1p, 0, 1);
                 userList.Add(player1);
-                player2 = new UserVO(money, 0, name_2p);
+                player2 = new UserVO(money, 0, name_2p, 0, 1);
                 userList.Add(player2);
                 gameView.ChangeName(name_1p, name_2p);
                 MessageBox.Show("게임을 시작합니다. " + name_1p + " VS " + name_2p, "완료");
             }
             else
             {
-                player1 = new UserVO(money, 0, name_1p);
+                player1 = new UserVO(money, 0, name_1p, 0, 1);
                 userList.Add(player1);
-                player2 = new UserVO(money, 0, "Computer");
+                player2 = new UserVO(money, 0, "Computer", 0, 1);
                 userList.Add(player2);
                 gameView.ChangeName(name_1p, "Computer");
                 MessageBox.Show("게임을 시작합니다. " + name_1p + " VS Computer", "완료");

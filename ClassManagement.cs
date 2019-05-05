@@ -29,6 +29,12 @@ namespace BlueMarble
             return m_userList;
         }
 
+        public List<CityVO> GetCityVO()
+        {
+            if (m_cityVO == null) m_cityVO = new List<CityVO>();
+            return m_cityVO;
+        }
+
         public MenuView GetMenuView()
         {
             if (m_menuView == null) m_menuView = new MenuView();

@@ -22,11 +22,26 @@ namespace BlueMarble.View
             twoName.Text = twoPName;
         }
 
+        public void Popup_BuyCity()
+        {
+
+        }
+
+        public void TravelUi()
+        {
+
+        }
+
         /// 강제로 X눌러서 종료했을시 MenuView 다시 출력
         private void Form_Closing(object sender, FormClosingEventArgs e)
         {
             ClassManagement.GetInstance().GetMenuView().Opacity = 100;
             ClassManagement.GetInstance().DeleteGameView();
+        }
+
+        private void GameView_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
