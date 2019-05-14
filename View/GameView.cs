@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlueMarble.Controller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,12 @@ namespace BlueMarble.View
         {
             ClassManagement.GetInstance().GetMenuView().Opacity = 100;
             ClassManagement.GetInstance().DeleteGameView();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RollDiceController rollDiceController = new RollDiceController();
+            rollDiceController.ShowRollDiceView();
         }
     }
 }
