@@ -28,49 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.rollBtn = new System.Windows.Forms.Button();
             this.dice1 = new System.Windows.Forms.Label();
             this.dice2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // rollBtn
             // 
-            this.button1.Location = new System.Drawing.Point(108, 160);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 49);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Roll";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.rollBtn.Location = new System.Drawing.Point(94, 128);
+            this.rollBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rollBtn.Name = "rollBtn";
+            this.rollBtn.Size = new System.Drawing.Size(122, 39);
+            this.rollBtn.TabIndex = 0;
+            this.rollBtn.Text = "Roll";
+            this.rollBtn.UseVisualStyleBackColor = true;
+            this.rollBtn.Click += new System.EventHandler(this.rollBtn_Click);
             // 
             // dice1
             // 
             this.dice1.AutoSize = true;
             this.dice1.Font = new System.Drawing.Font("굴림", 40F);
-            this.dice1.Location = new System.Drawing.Point(81, 68);
+            this.dice1.Location = new System.Drawing.Point(71, 54);
             this.dice1.Name = "dice1";
-            this.dice1.Size = new System.Drawing.Size(67, 67);
+            this.dice1.Size = new System.Drawing.Size(52, 54);
             this.dice1.TabIndex = 1;
-            this.dice1.Text = "1";
+            this.dice1.Text = "?";
             // 
             // dice2
             // 
             this.dice2.AutoSize = true;
             this.dice2.Font = new System.Drawing.Font("굴림", 40F);
-            this.dice2.Location = new System.Drawing.Point(212, 68);
+            this.dice2.Location = new System.Drawing.Point(186, 54);
             this.dice2.Name = "dice2";
-            this.dice2.Size = new System.Drawing.Size(67, 67);
+            this.dice2.Size = new System.Drawing.Size(52, 54);
             this.dice2.TabIndex = 2;
-            this.dice2.Text = "1";
+            this.dice2.Text = "?";
             // 
             // RollDiceView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 250);
+            this.ClientSize = new System.Drawing.Size(318, 200);
             this.Controls.Add(this.dice2);
             this.Controls.Add(this.dice1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.rollBtn);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "RollDiceView";
             this.Text = "RollDiceView";
             this.ResumeLayout(false);
@@ -80,7 +82,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button rollBtn;
         private System.Windows.Forms.Label dice1;
         private System.Windows.Forms.Label dice2;
     }

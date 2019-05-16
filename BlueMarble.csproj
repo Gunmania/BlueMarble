@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\MoveController.cs" />
     <Compile Include="Controller\PresetGameController.cs" />
     <Compile Include="Controller\RollDiceController.cs" />
     <Compile Include="Controller\StateCheckController.cs" />
