@@ -9,7 +9,6 @@ namespace BlueMarble.Controller
     class RollDiceController
     {
         RollDiceView rollDiceView;
-        private int diceNumber;
 
         public RollDiceController()
         {
@@ -21,13 +20,5 @@ namespace BlueMarble.Controller
             rollDiceView.Show();
         }
 
-        public int RollDice()
-        {
-            Random random = new Random();
-
-            diceNumber = random.Next(6) + 1;
-
-            return diceNumber;        
-        }
     }
 }

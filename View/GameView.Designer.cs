@@ -75,370 +75,330 @@
             // 
             // listView1
             // 
-            this.listView1.Location = new System.Drawing.Point(763, 522);
-            this.listView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView1.Location = new System.Drawing.Point(872, 652);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(70, 47);
+            this.listView1.Size = new System.Drawing.Size(80, 58);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // listView2
             // 
-            this.listView2.Location = new System.Drawing.Point(688, 522);
-            this.listView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView2.Location = new System.Drawing.Point(786, 652);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(70, 47);
+            this.listView2.Size = new System.Drawing.Size(80, 58);
             this.listView2.TabIndex = 1;
             this.listView2.UseCompatibleStateImageBehavior = false;
             // 
             // listView3
             // 
-            this.listView3.Location = new System.Drawing.Point(612, 522);
-            this.listView3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView3.Location = new System.Drawing.Point(700, 652);
             this.listView3.Name = "listView3";
-            this.listView3.Size = new System.Drawing.Size(70, 47);
+            this.listView3.Size = new System.Drawing.Size(80, 58);
             this.listView3.TabIndex = 2;
             this.listView3.UseCompatibleStateImageBehavior = false;
             // 
             // listView4
             // 
-            this.listView4.Location = new System.Drawing.Point(537, 522);
-            this.listView4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView4.Location = new System.Drawing.Point(614, 652);
             this.listView4.Name = "listView4";
-            this.listView4.Size = new System.Drawing.Size(70, 47);
+            this.listView4.Size = new System.Drawing.Size(80, 58);
             this.listView4.TabIndex = 3;
             this.listView4.UseCompatibleStateImageBehavior = false;
             // 
             // listView5
             // 
-            this.listView5.Location = new System.Drawing.Point(462, 522);
-            this.listView5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView5.Location = new System.Drawing.Point(528, 652);
             this.listView5.Name = "listView5";
-            this.listView5.Size = new System.Drawing.Size(70, 47);
+            this.listView5.Size = new System.Drawing.Size(80, 58);
             this.listView5.TabIndex = 4;
             this.listView5.UseCompatibleStateImageBehavior = false;
             // 
             // listView6
             // 
-            this.listView6.Location = new System.Drawing.Point(387, 522);
-            this.listView6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView6.Location = new System.Drawing.Point(442, 652);
             this.listView6.Name = "listView6";
-            this.listView6.Size = new System.Drawing.Size(70, 47);
+            this.listView6.Size = new System.Drawing.Size(80, 58);
             this.listView6.TabIndex = 5;
             this.listView6.UseCompatibleStateImageBehavior = false;
             // 
             // listView7
             // 
-            this.listView7.Location = new System.Drawing.Point(312, 522);
-            this.listView7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView7.Location = new System.Drawing.Point(356, 652);
             this.listView7.Name = "listView7";
-            this.listView7.Size = new System.Drawing.Size(70, 47);
+            this.listView7.Size = new System.Drawing.Size(80, 58);
             this.listView7.TabIndex = 6;
             this.listView7.UseCompatibleStateImageBehavior = false;
             // 
             // listView8
             // 
-            this.listView8.Location = new System.Drawing.Point(236, 522);
-            this.listView8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView8.Location = new System.Drawing.Point(270, 652);
             this.listView8.Name = "listView8";
-            this.listView8.Size = new System.Drawing.Size(70, 47);
+            this.listView8.Size = new System.Drawing.Size(80, 58);
             this.listView8.TabIndex = 7;
             this.listView8.UseCompatibleStateImageBehavior = false;
             // 
             // listView9
             // 
-            this.listView9.Location = new System.Drawing.Point(161, 522);
-            this.listView9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView9.Location = new System.Drawing.Point(184, 652);
             this.listView9.Name = "listView9";
-            this.listView9.Size = new System.Drawing.Size(70, 47);
+            this.listView9.Size = new System.Drawing.Size(80, 58);
             this.listView9.TabIndex = 8;
             this.listView9.UseCompatibleStateImageBehavior = false;
             // 
             // listView10
             // 
-            this.listView10.Location = new System.Drawing.Point(86, 522);
-            this.listView10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView10.Location = new System.Drawing.Point(98, 652);
             this.listView10.Name = "listView10";
-            this.listView10.Size = new System.Drawing.Size(70, 47);
+            this.listView10.Size = new System.Drawing.Size(80, 58);
             this.listView10.TabIndex = 9;
             this.listView10.UseCompatibleStateImageBehavior = false;
             // 
             // listView11
             // 
-            this.listView11.Location = new System.Drawing.Point(10, 522);
-            this.listView11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView11.Location = new System.Drawing.Point(12, 652);
             this.listView11.Name = "listView11";
-            this.listView11.Size = new System.Drawing.Size(70, 47);
+            this.listView11.Size = new System.Drawing.Size(80, 58);
             this.listView11.TabIndex = 10;
             this.listView11.UseCompatibleStateImageBehavior = false;
             // 
             // listView12
             // 
-            this.listView12.Location = new System.Drawing.Point(10, 470);
-            this.listView12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView12.Location = new System.Drawing.Point(12, 588);
             this.listView12.Name = "listView12";
-            this.listView12.Size = new System.Drawing.Size(70, 47);
+            this.listView12.Size = new System.Drawing.Size(80, 58);
             this.listView12.TabIndex = 11;
             this.listView12.UseCompatibleStateImageBehavior = false;
             // 
             // listView13
             // 
-            this.listView13.Location = new System.Drawing.Point(10, 419);
-            this.listView13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView13.Location = new System.Drawing.Point(12, 524);
             this.listView13.Name = "listView13";
-            this.listView13.Size = new System.Drawing.Size(70, 47);
+            this.listView13.Size = new System.Drawing.Size(80, 58);
             this.listView13.TabIndex = 12;
             this.listView13.UseCompatibleStateImageBehavior = false;
             // 
             // listView14
             // 
-            this.listView14.Location = new System.Drawing.Point(10, 368);
-            this.listView14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView14.Location = new System.Drawing.Point(12, 460);
             this.listView14.Name = "listView14";
-            this.listView14.Size = new System.Drawing.Size(70, 47);
+            this.listView14.Size = new System.Drawing.Size(80, 58);
             this.listView14.TabIndex = 13;
             this.listView14.UseCompatibleStateImageBehavior = false;
             // 
             // listView15
             // 
-            this.listView15.Location = new System.Drawing.Point(10, 317);
-            this.listView15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView15.Location = new System.Drawing.Point(12, 396);
             this.listView15.Name = "listView15";
-            this.listView15.Size = new System.Drawing.Size(70, 47);
+            this.listView15.Size = new System.Drawing.Size(80, 58);
             this.listView15.TabIndex = 14;
             this.listView15.UseCompatibleStateImageBehavior = false;
             // 
             // listView16
             // 
-            this.listView16.Location = new System.Drawing.Point(10, 266);
-            this.listView16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView16.Location = new System.Drawing.Point(12, 332);
             this.listView16.Name = "listView16";
-            this.listView16.Size = new System.Drawing.Size(70, 47);
+            this.listView16.Size = new System.Drawing.Size(80, 58);
             this.listView16.TabIndex = 15;
             this.listView16.UseCompatibleStateImageBehavior = false;
             // 
             // listView17
             // 
-            this.listView17.Location = new System.Drawing.Point(10, 214);
-            this.listView17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView17.Location = new System.Drawing.Point(12, 268);
             this.listView17.Name = "listView17";
-            this.listView17.Size = new System.Drawing.Size(70, 47);
+            this.listView17.Size = new System.Drawing.Size(80, 58);
             this.listView17.TabIndex = 16;
             this.listView17.UseCompatibleStateImageBehavior = false;
             // 
             // listView18
             // 
-            this.listView18.Location = new System.Drawing.Point(10, 163);
-            this.listView18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView18.Location = new System.Drawing.Point(12, 204);
             this.listView18.Name = "listView18";
-            this.listView18.Size = new System.Drawing.Size(70, 47);
+            this.listView18.Size = new System.Drawing.Size(80, 58);
             this.listView18.TabIndex = 17;
             this.listView18.UseCompatibleStateImageBehavior = false;
             // 
             // listView19
             // 
-            this.listView19.Location = new System.Drawing.Point(10, 112);
-            this.listView19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView19.Location = new System.Drawing.Point(12, 140);
             this.listView19.Name = "listView19";
-            this.listView19.Size = new System.Drawing.Size(70, 47);
+            this.listView19.Size = new System.Drawing.Size(80, 58);
             this.listView19.TabIndex = 18;
             this.listView19.UseCompatibleStateImageBehavior = false;
             // 
             // listView20
             // 
-            this.listView20.Location = new System.Drawing.Point(10, 61);
-            this.listView20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView20.Location = new System.Drawing.Point(12, 76);
             this.listView20.Name = "listView20";
-            this.listView20.Size = new System.Drawing.Size(70, 47);
+            this.listView20.Size = new System.Drawing.Size(80, 58);
             this.listView20.TabIndex = 19;
             this.listView20.UseCompatibleStateImageBehavior = false;
             // 
             // listView21
             // 
-            this.listView21.Location = new System.Drawing.Point(10, 10);
-            this.listView21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView21.Location = new System.Drawing.Point(12, 12);
             this.listView21.Name = "listView21";
-            this.listView21.Size = new System.Drawing.Size(70, 47);
+            this.listView21.Size = new System.Drawing.Size(80, 58);
             this.listView21.TabIndex = 20;
             this.listView21.UseCompatibleStateImageBehavior = false;
             // 
             // listView22
             // 
-            this.listView22.Location = new System.Drawing.Point(86, 10);
-            this.listView22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView22.Location = new System.Drawing.Point(98, 12);
             this.listView22.Name = "listView22";
-            this.listView22.Size = new System.Drawing.Size(70, 47);
+            this.listView22.Size = new System.Drawing.Size(80, 58);
             this.listView22.TabIndex = 21;
             this.listView22.UseCompatibleStateImageBehavior = false;
             // 
             // listView23
             // 
-            this.listView23.Location = new System.Drawing.Point(161, 10);
-            this.listView23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView23.Location = new System.Drawing.Point(184, 12);
             this.listView23.Name = "listView23";
-            this.listView23.Size = new System.Drawing.Size(70, 47);
+            this.listView23.Size = new System.Drawing.Size(80, 58);
             this.listView23.TabIndex = 22;
             this.listView23.UseCompatibleStateImageBehavior = false;
             // 
             // listView24
             // 
-            this.listView24.Location = new System.Drawing.Point(236, 10);
-            this.listView24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView24.Location = new System.Drawing.Point(270, 12);
             this.listView24.Name = "listView24";
-            this.listView24.Size = new System.Drawing.Size(70, 47);
+            this.listView24.Size = new System.Drawing.Size(80, 58);
             this.listView24.TabIndex = 23;
             this.listView24.UseCompatibleStateImageBehavior = false;
             // 
             // listView25
             // 
-            this.listView25.Location = new System.Drawing.Point(312, 10);
-            this.listView25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView25.Location = new System.Drawing.Point(356, 12);
             this.listView25.Name = "listView25";
-            this.listView25.Size = new System.Drawing.Size(70, 47);
+            this.listView25.Size = new System.Drawing.Size(80, 58);
             this.listView25.TabIndex = 24;
             this.listView25.UseCompatibleStateImageBehavior = false;
             // 
             // listView26
             // 
-            this.listView26.Location = new System.Drawing.Point(387, 10);
-            this.listView26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView26.Location = new System.Drawing.Point(442, 12);
             this.listView26.Name = "listView26";
-            this.listView26.Size = new System.Drawing.Size(70, 47);
+            this.listView26.Size = new System.Drawing.Size(80, 58);
             this.listView26.TabIndex = 25;
             this.listView26.UseCompatibleStateImageBehavior = false;
             // 
             // listView27
             // 
-            this.listView27.Location = new System.Drawing.Point(462, 10);
-            this.listView27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView27.Location = new System.Drawing.Point(528, 12);
             this.listView27.Name = "listView27";
-            this.listView27.Size = new System.Drawing.Size(70, 47);
+            this.listView27.Size = new System.Drawing.Size(80, 58);
             this.listView27.TabIndex = 26;
             this.listView27.UseCompatibleStateImageBehavior = false;
             // 
             // listView28
             // 
-            this.listView28.Location = new System.Drawing.Point(537, 10);
-            this.listView28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView28.Location = new System.Drawing.Point(614, 12);
             this.listView28.Name = "listView28";
-            this.listView28.Size = new System.Drawing.Size(70, 47);
+            this.listView28.Size = new System.Drawing.Size(80, 58);
             this.listView28.TabIndex = 27;
             this.listView28.UseCompatibleStateImageBehavior = false;
             // 
             // listView29
             // 
-            this.listView29.Location = new System.Drawing.Point(612, 10);
-            this.listView29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView29.Location = new System.Drawing.Point(700, 12);
             this.listView29.Name = "listView29";
-            this.listView29.Size = new System.Drawing.Size(70, 47);
+            this.listView29.Size = new System.Drawing.Size(80, 58);
             this.listView29.TabIndex = 28;
             this.listView29.UseCompatibleStateImageBehavior = false;
             // 
             // listView30
             // 
-            this.listView30.Location = new System.Drawing.Point(688, 10);
-            this.listView30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView30.Location = new System.Drawing.Point(786, 12);
             this.listView30.Name = "listView30";
-            this.listView30.Size = new System.Drawing.Size(70, 47);
+            this.listView30.Size = new System.Drawing.Size(80, 58);
             this.listView30.TabIndex = 29;
             this.listView30.UseCompatibleStateImageBehavior = false;
             // 
             // listView31
             // 
-            this.listView31.Location = new System.Drawing.Point(763, 10);
-            this.listView31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView31.Location = new System.Drawing.Point(872, 12);
             this.listView31.Name = "listView31";
-            this.listView31.Size = new System.Drawing.Size(70, 47);
+            this.listView31.Size = new System.Drawing.Size(80, 58);
             this.listView31.TabIndex = 30;
             this.listView31.UseCompatibleStateImageBehavior = false;
             // 
             // listView32
             // 
-            this.listView32.Location = new System.Drawing.Point(762, 61);
-            this.listView32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView32.Location = new System.Drawing.Point(871, 76);
             this.listView32.Name = "listView32";
-            this.listView32.Size = new System.Drawing.Size(70, 47);
+            this.listView32.Size = new System.Drawing.Size(80, 58);
             this.listView32.TabIndex = 31;
             this.listView32.UseCompatibleStateImageBehavior = false;
             // 
             // listView33
             // 
-            this.listView33.Location = new System.Drawing.Point(762, 112);
-            this.listView33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView33.Location = new System.Drawing.Point(871, 140);
             this.listView33.Name = "listView33";
-            this.listView33.Size = new System.Drawing.Size(70, 47);
+            this.listView33.Size = new System.Drawing.Size(80, 58);
             this.listView33.TabIndex = 32;
             this.listView33.UseCompatibleStateImageBehavior = false;
             // 
             // listView34
             // 
-            this.listView34.Location = new System.Drawing.Point(762, 163);
-            this.listView34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView34.Location = new System.Drawing.Point(871, 204);
             this.listView34.Name = "listView34";
-            this.listView34.Size = new System.Drawing.Size(70, 47);
+            this.listView34.Size = new System.Drawing.Size(80, 58);
             this.listView34.TabIndex = 33;
             this.listView34.UseCompatibleStateImageBehavior = false;
             // 
             // listView35
             // 
-            this.listView35.Location = new System.Drawing.Point(762, 214);
-            this.listView35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView35.Location = new System.Drawing.Point(871, 268);
             this.listView35.Name = "listView35";
-            this.listView35.Size = new System.Drawing.Size(70, 47);
+            this.listView35.Size = new System.Drawing.Size(80, 58);
             this.listView35.TabIndex = 34;
             this.listView35.UseCompatibleStateImageBehavior = false;
             // 
             // listView36
             // 
-            this.listView36.Location = new System.Drawing.Point(762, 266);
-            this.listView36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView36.Location = new System.Drawing.Point(871, 332);
             this.listView36.Name = "listView36";
-            this.listView36.Size = new System.Drawing.Size(70, 47);
+            this.listView36.Size = new System.Drawing.Size(80, 58);
             this.listView36.TabIndex = 35;
             this.listView36.UseCompatibleStateImageBehavior = false;
             // 
             // listView37
             // 
-            this.listView37.Location = new System.Drawing.Point(763, 317);
-            this.listView37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView37.Location = new System.Drawing.Point(872, 396);
             this.listView37.Name = "listView37";
-            this.listView37.Size = new System.Drawing.Size(70, 47);
+            this.listView37.Size = new System.Drawing.Size(80, 58);
             this.listView37.TabIndex = 36;
             this.listView37.UseCompatibleStateImageBehavior = false;
             // 
             // listView38
             // 
-            this.listView38.Location = new System.Drawing.Point(762, 368);
-            this.listView38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView38.Location = new System.Drawing.Point(871, 460);
             this.listView38.Name = "listView38";
-            this.listView38.Size = new System.Drawing.Size(70, 47);
+            this.listView38.Size = new System.Drawing.Size(80, 58);
             this.listView38.TabIndex = 37;
             this.listView38.UseCompatibleStateImageBehavior = false;
             // 
             // listView39
             // 
-            this.listView39.Location = new System.Drawing.Point(763, 419);
-            this.listView39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView39.Location = new System.Drawing.Point(872, 524);
             this.listView39.Name = "listView39";
-            this.listView39.Size = new System.Drawing.Size(70, 47);
+            this.listView39.Size = new System.Drawing.Size(80, 58);
             this.listView39.TabIndex = 38;
             this.listView39.UseCompatibleStateImageBehavior = false;
             // 
             // listView40
             // 
-            this.listView40.Location = new System.Drawing.Point(762, 470);
-            this.listView40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.listView40.Location = new System.Drawing.Point(871, 588);
             this.listView40.Name = "listView40";
-            this.listView40.Size = new System.Drawing.Size(70, 47);
+            this.listView40.Size = new System.Drawing.Size(80, 58);
             this.listView40.TabIndex = 39;
             this.listView40.UseCompatibleStateImageBehavior = false;
             // 
             // oneName
             // 
             this.oneName.AutoSize = true;
-            this.oneName.Location = new System.Drawing.Point(161, 112);
+            this.oneName.Location = new System.Drawing.Point(184, 140);
             this.oneName.Name = "oneName";
-            this.oneName.Size = new System.Drawing.Size(38, 12);
+            this.oneName.Size = new System.Drawing.Size(45, 15);
             this.oneName.TabIndex = 40;
             this.oneName.Text = "label1";
             // 
@@ -446,30 +406,29 @@
             // 
             this.twoName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.twoName.AutoSize = true;
-            this.twoName.Location = new System.Drawing.Point(643, 112);
+            this.twoName.Location = new System.Drawing.Point(735, 140);
             this.twoName.Name = "twoName";
             this.twoName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.twoName.Size = new System.Drawing.Size(38, 12);
+            this.twoName.Size = new System.Drawing.Size(45, 15);
             this.twoName.TabIndex = 41;
             this.twoName.Text = "label1";
             this.twoName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(372, 324);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(425, 405);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(66, 18);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 42;
-            this.button1.Text = "Dice";
+            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // GameView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 573);
+            this.ClientSize = new System.Drawing.Size(963, 716);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.twoName);
             this.Controls.Add(this.oneName);
@@ -513,7 +472,6 @@
             this.Controls.Add(this.listView3);
             this.Controls.Add(this.listView2);
             this.Controls.Add(this.listView1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GameView";
             this.Text = "GameView";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Closing);
